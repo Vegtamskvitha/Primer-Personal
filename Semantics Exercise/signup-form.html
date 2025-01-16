@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<header>
+    <h1>Signup for our Bootcamp</h1>
+        <p>And your journey towards a new career can begin!</p>
+</header>
+
+<fieldset>
+    <legend>Personal Details</legend>
+        <p>Please fill out the following form with your personal details.</p>
+        <form>
+            <p><label for="name">Full Name</label></p>
+            <p><input id="name" type="text" required></p>
+            <p><label for="phone">Phone Number</label></p>
+            <p><input id="phone" type="tel" required></p>
+            <p><label for="email">Email</label></p>
+            <p><input id="email" type="email" required></p>
+            <p><label for="address_city">City</label></p>
+            <p><input id="address_city" type="text" required></p>
+            <p><label for="address_street">Street and House Number</label></p>
+            <p><input id="address_street" type="text" required></p>
+        </form>
+</fieldset>
+
+<fieldset>
+
+    <legend>Course Selection</legend>
+        <p>We offer a wide array of different courses. Please let us know which course you are interested in.</p>
+        <form>
+            <label for="choice">Available Courses</label>
+                <select name="choice" id="choice" required>
+                    <option value="Frontend">Frontend</option>  
+                    <option value="Backend">Backend</option> 
+                    <option value="Fullstack">Fullstack</option> 
+                    <option value="Graphic Design">Graphic Design</option> 
+                    <option value="Analytics">Analytics</option> 
+                </select>
+        </form>
+</fieldset>
+
+<p></p>
+<button type=submit>Submit</button>
+
+</body>
+</html>
