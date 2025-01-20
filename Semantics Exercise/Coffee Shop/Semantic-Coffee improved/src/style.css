@@ -72,3 +72,9 @@ fieldset legend {
 fieldset input {
     margin-bottom: 0.5rem;
 }
+
+footer {
+    float: none;
+    position: absolute;
+    margin-bottom: 1%;
+}
