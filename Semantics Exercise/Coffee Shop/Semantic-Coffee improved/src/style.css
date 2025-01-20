@@ -1,29 +1,63 @@
-/*Intending items on the left side, pushing it right*/
-.tab10 { margin-left: 10px; }
-.tab20 { margin-left: 20px; }
-.tab30 { margin-left: 30px; }
-.tab40 { margin-left: 40px; }
-.tab50 { margin-left: 50px; }
-.tab60 { margin-left: 60px; }
-.tab70 { margin-left: 70px; }
-.tab80 { margin-left: 80px; }
-.tab90 { margin-left: 90px; }
-.tab100 { margin-left: 100px; }
-.tab10perl { margin-left: 10%; }
-.tab20perl { margin-left: 20%; }
-.tab30perl { margin-left: 30%; }
-.tab40perl { margin-left: 40%; }
-.tab50perl { margin-left: 50%; }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    color: aliceblue;
+    border-bottom: 2px solid;
+    padding: 1rem;
+    background-image: url(./img/coffee-bean-pile.jpg);
+  }
+
+  h1 {
+    padding: 1rem;
+  }
+
+  body {    
+    color: aliceblue;
+    margin: 2rem;
+    padding: 0;
+    background-image: url(./img/yard.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+#navigation {
+    display: flex;
+    column-gap: 10px;
+    border-bottom: 2px solid;
+    }
+
+    a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+
 
 
 /*This is supposed to make image borders round and nice*/
 img {
+    width: 100%;
+    max-width: 200px;
     margin: auto;
     margin-top: 1rem;
     display: block;
     border-style: ridge;
     border-radius: 1rem;
     border-color: burlywood;
+}
+
+figure {
+    text-align: center;
+    float: left;
+    margin-right: 0.1rem;
+    margin-right: 0.1rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
 }
 /*To make forms pwetty!!!*/
 form   {
