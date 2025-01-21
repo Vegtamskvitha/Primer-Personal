@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    border: 2px solid grey;
+    margin: 2rem 2rem ;
+    width: 30rem;
+  }
+
+  .window {
+    background-color: rgba(129, 129, 129, 0.562);
+    size: 100%;
+  }
+
+  .class {
+    text-align: right;
+  }
+
+  h3 {
+    margin: 2rem rem;
+    background-color: blue;
+    color: aliceblue;
+  }
+
+  /*{
+    display: flex;
+    column-gap: 10px;
+    border-bottom: 2px solid;
+    }*/
+
+button {
+  background-color: grey;
+}
